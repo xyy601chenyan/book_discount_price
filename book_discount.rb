@@ -1,4 +1,4 @@
-def total_price(quantity,kind)
+def total_price(quantity,kind) # quantity表示买书的数量, kind代表书的种类
   sum = 0
 
   case kind

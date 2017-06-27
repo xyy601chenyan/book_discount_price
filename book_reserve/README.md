@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+有一家书店在卖哈利波特书籍系列，每一本书定价 $100 元。买两本不同的书可以打5% 的折扣、买三本不同的书可以打 10% 的折扣、买四本不同的书可以打 20%。如果买到五本可以打到 25% 的折扣。请写出一个方法可以计算价格。
+前几个测试案例会是这样：
+第一集买 1 本，总价应为 100 元
+第一集买 1 本、第二集买 1 本，总价应为 190 元
+第一集买 1 本、第二集买 2 本，总价应为 290 元 (要不同集数才有折扣，所以第二集第二本没有折扣)
